@@ -394,12 +394,12 @@
 //         justify-content: center;
 //     }
 
-//     .timeline-dot-inner {
-//         width: 0.375rem;
-//         height: 0.375rem;
-//         background-color: var(--accent-red);
-//         border-radius: 9999px;
-//     }
+//     // .timeline-dot-inner {
+//     //     width: 0.375rem;
+//     //     height: 0.375rem;
+//     //     background-color: var(--accent-red);
+//     //     border-radius: 9999px;
+//     // }
 
 //     .stats-card {
 //         background-color: rgba(255,255,255,0.05);
@@ -1217,6 +1217,7 @@ const customStyles = `
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
     @media (min-width: 768px) { .hero-title { font-size: 8rem; } }
 
     .hero-btn-group { display: flex; flex-direction: column; gap: 1rem; align-items: center; justify-content: center; width: 100%; }
